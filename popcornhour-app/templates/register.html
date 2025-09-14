@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro - PopcornHour</title>
+</head>
+<body>
+  <h1>Crear cuenta</h1>
+  <form>
+    <label>Nombre:</label>
+    <input type="text"><br>
+    <label>Email:</label>
+    <input type="email"><br>
+    <label>Contraseña:</label>
+    <input type="password"><br>
+    <button type="submit">Registrarse</button>
+  </form>
+  <p>¿Ya tienes cuenta? <a href="{{ url_for('login') }}">Inicia sesión</a></p>
+</body>
+</html>
